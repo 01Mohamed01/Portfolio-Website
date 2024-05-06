@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+h1{font-family: "Jacquard 24", system-ui;}
+h2{font-family: "Roboto Mono", monospace;}
+h2{
+	color:white;
+	background-color:mediumpurple;
+}
+body{
+  margin: 0;
+}
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+footer{
+  color: white;
+  background-color: mediumpurple;
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px;
+  clear: both;
+}
+nav ul{
+  text-align: center;
+  list-style-type: none;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: black;
+}
+nav a:hover{
+  color: silver;
+}
+h1{
+  text-align: center;
+  font-size: 4em;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+nav{
+  background-color: mediumpurple;
+  border-top: 2px darkgray solid;
+  border-bottom: 2px darkgreen solid;
+  padding: 5px;
+}
+.home-hero{
+  background-image: url(images/texture-2068283_1280.jpg);
+  background-size: cover;
+}
+.home-hero{
+  font-family: 'Dancing script', cursive;
+  color: white;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+.home-photo{
+  float: right;
+  max-width: 50%;
+  height: auto;
+}
+.game-controls {
+ margin-top: 20px;
+ text-align: center;
+      }
+.myButton   {
+  background-color: #4CAF50;
+ border: none;
+ color: yellow;
+ padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+ border-radius: 5px;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+.container-fluid{
+  align-items: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mobile{
+  display:none;
+}
+@media only screen and (max-width: 768px){
+  .desktop{
+    display:none;
+  }
+  .mobile{
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+
+
+nav a:active{
+  color: blue;
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
